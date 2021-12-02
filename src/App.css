@@ -8,6 +8,8 @@
   flex-direction: column;
   background-color: black;
   text-align: center;
+  color: #20C20E;
+  font-size: 25px;
 }
 
 .App-logo {

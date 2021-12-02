@@ -11,7 +11,7 @@ export default function ContactMe() {
     <div>
       <h1>Contact me!</h1>
       <iframe
-        src = "https://github.com/MarianoCMP/marianocmp.github.io"
+        src = "https://www.google.com/maps/place/Petropavlivska+Borshchahivka,+Kyiv+Oblast,+Ukraine/@50.427485,30.3274367,13z/data=!4m13!1m7!3m6!1s0x40d4cf4ee15a4505:0x764931d2170146fe!2sKyiv,+Ukraine,+02000!3b1!8m2!3d50.4501!4d30.5234!3m4!1s0x40d4cb6f68fa123b:0xf05847799e2d2c50!8m2!3d50.43368!4d30.3286171"
         frameBorder = "0"
         allowFullScreen = ""
         aria-hidden = "false"

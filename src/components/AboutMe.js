@@ -1,22 +1,19 @@
-import logo from '../Mariano.jpeg';
+
 
  function AboutMe(){
     return (
         <div className="app">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+          
+            <h1>About Me</h1>
             <p>
-              My name is Mariano and I'm going to master React!
+            A disciplined college student motivated and determined to look for experience in the 
+            tech-field. Always trying to gain knowledge about computers and networks which the 
+            world relies heavily on. It's fascinating to see how technology can help the underprivileged.
+            Personally being in tough times, I found joy in technology (hardware) and later found programming 
+            as a challenge. 
             </p>
-            <a
-              className="App-link"
-              href="https://github.com/MarianoCMP"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Check Me Out!
-            </a>
-          </header>
+         
+          
         </div>
       );
 
