@@ -1,45 +1,32 @@
 import React from "react";
 import "./Projects.css"
 
-import SoloVideoGame from '..//pages/SoloVideoGame'
-import VideoGame from '..//pages/VideoGame'
+import { Outlet,Link } from "react-router-dom";
 
-import {
-  BrowserRouter as Router, Routes,Route, Link
-} from "react-router-dom";
+
+
 
 
 export default function Projects() {
   return (
     <div>
-        <nav>
-          <ul>
-            <li className = "projs">
-            
-            <Link to="/SoloVideoGame">Projects</Link> 
         
-          </li>
-          <li >
-            
-          <Link to="/VideoGame">Projects</Link>
-        
-          </li>
-          
-          </ul>
-        </nav>
+
 
         
       <p>From Java projects to Javascript projects</p>
-      <Routes>
-        
-        < Route path="SoloVideoGame" element={<SoloVideoGame />} />
 
-        < Route path="VideoGame" element={<VideoGame />} />
-
-        
-
-        
-        </Routes>
+      <nav style = {{
+        borderBottom: "solid 1px",
+        paddingBottom: "1rem"
+      }}
+      >
+      <Link to = "VideoGame"> VideoGame </Link> | {" "}
+      <Link to = "SoloVideoGame"> SoloVideoGame </Link> | {" "}
+      <Link to = "DragnDrop"> DragnDrop </Link>
+      </nav>
+      <Outlet />
     </div>
   );
 }
+
