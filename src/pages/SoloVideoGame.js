@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../giphy.gif'
+
 
 
 
@@ -8,7 +8,7 @@ export default function SoloVideoGame() {
         <div>
 
 
-<img src = {require(logo)} alt = "Gif Suck..." />
+<iframe src="https://giphy.com/embed/rp2VzXnGael6QlU0qe" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/rp2VzXnGael6QlU0qe">via GIPHY</a></p>
            <p> Creativity </p>
 
 
