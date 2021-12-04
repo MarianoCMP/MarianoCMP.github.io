@@ -13,7 +13,7 @@ import Projects from './components/Projects';
 import SoloVideoGame from './pages/SoloVideoGame';
 import VideoGame from './pages/VideoGame';
 import ContactMe from './components/ContactMe';
-import DragnDrop from './pages/DragnDrop'
+import MobileApp from './pages/MobileApp'
 
 
 ReactDOM.render(
@@ -28,7 +28,7 @@ ReactDOM.render(
 
          < Route path="VideoGame" element={<VideoGame/>} />
         < Route path = "SoloVideoGame" element={<SoloVideoGame/>}/>
-        <Route path = "DragnDrop" element = {< DragnDrop/>} />
+        <Route path = "MobileApp" element = {< MobileApp/>} />
         
         </Route> 
 

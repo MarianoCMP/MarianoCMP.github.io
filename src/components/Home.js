@@ -1,10 +1,11 @@
 import React from "react";
-
+import { useState } from "react";
 
 import './Home.css'
 import logo from '../Mariano.jpeg';
-
 export default function Home() {
+
+
   return (
 
     <div className = "home">
@@ -15,6 +16,8 @@ export default function Home() {
       <p>I am Mariano</p>
       <p>Programmer and Tech Enthusiast</p>
     </h1>
+   
+
     </div>
 
     <div className = "person">

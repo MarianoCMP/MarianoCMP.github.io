@@ -23,7 +23,7 @@ export default function Projects() {
       >
       <Link to = "VideoGame"> VideoGame </Link> | {" "}
       <Link to = "SoloVideoGame"> SoloVideoGame </Link> | {" "}
-      <Link to = "DragnDrop"> DragnDrop </Link>
+      <Link to = "MobileApp"> MobileApp </Link>
       </nav>
       <Outlet />
     </div>
