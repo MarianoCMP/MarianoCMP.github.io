@@ -17,7 +17,8 @@ export default function ContactMe() {
   return (
 
     //make a form for users to fill out their name, email, and a short message to me
-    <div>
+    <div className = "gap">
+      
       <h1>Contact me! 📩 📱 💻</h1>
       
       <h4>Phone</h4>
@@ -25,6 +26,7 @@ export default function ContactMe() {
     <h4>Address</h4>
     <p>Метроград, Bessarabs'ka Square, 2, Kyiv, Ukraine, 01004</p>
 
+    
       <form className = "form">
         <h1>Contact Form 📧</h1>
 

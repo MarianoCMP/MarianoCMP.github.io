@@ -28,7 +28,6 @@ function App() {
         </nav>
 
 <Outlet/>
-    
       </div>
   );
 }

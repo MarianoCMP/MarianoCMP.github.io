@@ -18,7 +18,6 @@ import React from 'react';
         through such a small machine which is a computer.
         Technology is crazy.
             </p>
-            
                 <a
                 className = "link"
                 style = {{color: "white"}}
@@ -28,9 +27,6 @@ import React from 'react';
                 >
                 CHECK OUT MY RESUME!
                 </a>
-
-         
-          
         </div>
       );
 
