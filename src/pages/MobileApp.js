@@ -18,7 +18,7 @@ export default function MobileApp() {
         </h2>
             <div className ="column">
          <iframe src="https://giphy.com/embed/LhJFMni08u9Xc43Ivt" 
-             width="400" 
+             width="330" 
              height="270" 
              frameBorder="0" 
              class="giphy-embed" 
