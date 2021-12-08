@@ -17,7 +17,7 @@ export default function SoloVideoGame() {
             </h2>
             <div className = "column">
             <iframe src="https://giphy.com/embed/bMOovLZ102KZ92J59J" 
-            width="480" 
+            width="330" 
             height="260" 
             frameBorder="0" 
             class="giphy-embed" 

@@ -15,7 +15,7 @@ export default function VideoGame() {
             <div className = "column">
     
         <iframe src="https://giphy.com/embed/rp2VzXnGael6QlU0qe"
-            width="480" 
+            width="400" 
             height="260" 
             frameBorder="0" 
             class="giphy-embed" 
