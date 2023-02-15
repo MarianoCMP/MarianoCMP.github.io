@@ -21,7 +21,6 @@ import React from 'react';
                 <a
                 className = "link"
                 style = {{color: "white"}}
-                href = "https://drive.google.com/file/d/1Jn3-Vb7R4jYfHFgjsxsTLc5S-el-Auc_/view"
                 target = "_blank"
                 
                 >
